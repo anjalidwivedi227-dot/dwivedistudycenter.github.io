@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anjali Study Hub — Home Tuition & Assignment Help</title>
+  <meta name="description" content="Home tuition for classes 1-5 near Dwarka Puri (near Jindal Public School) + online & handwritten assignment help for school & college students. Contact on WhatsApp to book a free trial." />
+  <style>
+    :root{--brand:#0b72ef;--muted:#6b7280;--card:#fff;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#111; background:var(--bg);}
+    .container{max-width:980px;margin:30px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;background:linear-gradient(135deg,var(--brand),#5cc0ff);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{font-size:1.8rem;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:start}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+
+    .features{display:flex;gap:12px;margin-top:16px}
+    .feature{flex:1;padding:12px;border-radius:8px;background:#f1f5f9}
+    .feature h4{margin:0 0 6px;font-size:1rem}
+    .feature p{margin:0;color:var(--muted);font-size:0.95rem}
+
+    form label{display:block;margin-top:12px;font-size:0.85rem;color:var(--muted)}
+    input, select, textarea{width:100%;padding:10px;margin-top:6px;border:1px solid #e6eef7;border-radius:8px;font-size:0.95rem}
+    textarea{min-height:100px;resize:vertical}
+    .btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;border:none;cursor:pointer}
+    .muted{color:var(--muted);font-size:0.95rem}
+
+    .services{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+    .service-card{padding:16px;border-radius:10px;background:#fff;border:1px solid #eef2ff}
+    .service-card h3{margin:0 0 8px}
+    .price{font-weight:700;color:var(--brand)}
+
+    .testimonials{margin-top:18px}
+    .testi{background:#fff;padding:12px;border-radius:8px;margin-bottom:10px;border-left:4px solid #f0f9ff}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:0.9rem}
+
+    @media(max-width:880px){
+      .hero{grid-template-columns:1fr}
+      .features{flex-direction:column}
+      .services{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">AD</div>
+      <div>
+        <h1>Anjali Study Hub</h1>
+        <p class="lead">Home tuition (Class 1–5) • Assignment help (typed & handwritten) — Dwarka Puri (near Jindal Public School)</p>
+      </div>
+    </header>
+
+    <main class="hero">
+      <section>
+        <div class="card">
+          <h2>Learn with confidence — Personalised tuition & quick assignment help</h2>
+          <p class="muted">Hi, I'm <strong>Anjali Dwivedi</strong>. I provide friendly home tuition for young learners (Class 1–5) and fast, plagiarism-free assignment help for school & college students. Free trial class available for tuition.</p>
+
+          <div class="features">
+            <div class="feature">
+              <h4>Local Tuition</h4>
+              <p>Small batches & personal attention near Jindal Public School.</p>
+            </div>
+            <div class="feature">
+              <h4>Assignments</h4>
+              <p>Typed & handwritten assignments, on-time delivery and revision support.</p>
+            </div>
+          </div>
+
+          <div class="services">
+            <div class="service-card">
+              <h3>Home Tuition (Class 1–5)</h3>
+              <p class="muted">One-on-one or small groups. Basics, reading, math, and homework help.</p>
+              <p class="price">₹150–350 / hour (depends on batch size)</p>
+            </div>
+            <div class="service-card">
+              <h3>Assignment Help</h3>
+              <p class="muted">School & college — typed or handwritten (page-wise pricing). Rush delivery available.</p>
+              <p class="price">₹80–300 / page (varies by complexity)</p>
+            </div>
+          </div>
+
+          <div class="testimonials">
+            <div class="testi">
+              <strong>Ravi (Parent)</strong>
+              <p class="muted">"My daughter improved her reading and confidence after 2 weeks. Highly recommended!"</p>
+            </div>
+            <div class="testi">
+              <strong>Sneha (Student)</strong>
+              <p class="muted">"Fast assignment help and clear formatting. Good quality."</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top:12px;text-align:center">
+          <a class="btn" href="https://wa.me/919999999999?text=Hi%20Anjali%2C%20I%27m%20interested%20in%20tuition%20%2F%20assignments">Message on WhatsApp</a>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Book a Free Trial / Get a Quote</h3>
+          <p class="muted">Fill this quick form — I will contact you on WhatsApp within a few hours.</p>
+
+          <!-- Formspree form (your form link pasted) -->
+          <form id="leadForm" action="https://formspree.io/f/xvgeweaw" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your name">
+
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" name="phone" required placeholder="+91xxxxxxxxxx">
+
+            <label for="email">Email (optional)</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com">
+
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option>Home Tuition (Class 1–5)</option>
+              <option>Assignment (Typed) - School</option>
+              <option>Assignment (Typed) - College</option>
+              <option>Assignment (Handwritten)</option>
+            </select>
+
+            <label for="message">Message / Subject / Deadline</label>
+            <textarea id="message" name="message" placeholder="Tell me the class/subject, pages, deadline..."></textarea>
+
+            <!-- optional hidden fields for Formspree behaviour -->
+            <input type="hidden" name="_subject" value="New lead from AnjaliStudyHub">
+            <input type="hidden" name="_language" value="en">
+
+            <button type="submit" class="btn" style="width:100%;margin-top:12px">Send Request</button>
+
+            <p id="formStatus" class="muted" style="margin-top:10px;font-size:0.95rem"></p>
+          </form>
+
+          <script>
+            (function(){
+              const form = document.getElementById('leadForm');
+              const status = document.getElementById('formStatus');
+              form.addEventListener('submit', function(e){
+                e.preventDefault();
+                status.textContent = 'Sending...';
+                fetch(form.action, {
+                  method: 'POST',
+                  body: new FormData(form),
+                  headers: { 'Accept': 'application/json' }
+                }).then(response => {
+                  if (response.ok) {
+                    status.textContent = 'Thanks — your message has been sent! I will contact you on WhatsApp soon.';
+                    form.reset();
+                  } else {
+                    response.json().then(data => {
+                      status.textContent = data.error || 'There was a problem submitting the form.';
+                    })
+                  }
+                }).catch(err => {
+                  console.error(err);
+                  status.textContent = 'Submission failed — please try again or message on WhatsApp.';
+                });
+              })
+            })();
+          </script>
+
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <h4>Quick Info</h4>
+          <p class="muted" style="margin:6px 0">Location: Dwarka Puri (near Jindal Public School)</p>
+          <p class="muted" style="margin:6px 0">Languages: English, Hindi</p>
+          <p class="muted" style="margin:6px 0">Contact: <a href="tel:+919999999999">+91 99999 99999</a></p>
+        </div>
+
+      </aside>
+    </main>
+
+    <footer>
+      <p>© <strong>Anjali Study Hub</strong> • Designed for local tuition & assignment help • Replace contact details in the code before publishing</p>
+    </footer>
+
+  </div>
+</body>
+</html>
